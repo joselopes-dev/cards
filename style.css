@@ -1,0 +1,191 @@
+* 
+
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: rgb(142, 110, 42);
+    position: fixed;
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 5px;
+    list-style-type: none;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: black;
+}
+
+header img {
+    width: 100%;
+    height: 40vh;
+}
+
+.textogadita {
+    width: 98%;
+    text-align: justify;
+    line-height: 30px;
+    background-color: black;
+    text-align: center;
+    padding: 1%;
+}
+
+.frase {
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    color: white; 
+    text-align: center;
+    font-size: 40px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.leao {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.leao1 {
+    text-align: center;
+}
+
+
+footer {
+    display: flex;
+    width: 96%;
+    background-color: rgb(142, 110, 42);;
+    padding: 2%;
+    justify-content:space-evenly;
+}
+
+footer img {
+    width: 50px;
+    height: 50px;
+}
+
+footer a {
+    margin: 20px;
+}
+
+.texto3 {
+    color: white;
+}
+
+.endereco {
+    width: 200px;
+}
+
+
+
+
+
+/* Media Queries para responsividade */
+
+@media (max-width: 768px) {    
+   
+ul {
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.leao {    
+    width: 200px;
+    height: 200px;
+}
+  
+h1 {
+    font-size: 30px;
+}
+
+h2 {     
+    font-size: 25px;
+}
+
+footer {
+flex-direction: row;
+align-items: center;
+ }
+
+.endereco {
+width: 100%;
+text-align: center;
+ }}
+
+@media (max-width: 480px) {
+    ul {
+        flex-direction: row;
+        align-items: center; 
+        gap: 30px;
+} 
+
+.leao {
+        width: 150px;
+        height: 150px;
+    }
+
+h1 {
+     
+font-size: 25px;
+    }
+
+h2 {
+         
+font-size: 20px;
+    }
+
+footer {
+flex-direction: row;
+align-items: center;
+
+}
+
+.endereco {
+width: 100%;
+text-align: center;
+
+}
+
+.texto3 { 
+font-size: 10px;
+
+}
+
+footer a {
+margin: 10px;
+}
+
+.textogadita p {
+    text-align: justify;
+    padding: 5px;
+}
+
+header img {
+    width: 100%;
+    height: 30%;
+}
+     
+}
