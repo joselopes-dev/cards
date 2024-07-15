@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Gaditas</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Quem somos</a></li>
+            <li><a href="#">Membros</a></li>
+            <li><a href="#">Galeria</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <div class="religiosa">
+            <br><br><br><br>
+            <div class="leao1">
+            <img class="leao" src="/imagens/gaditas_leaao.png" alt="leão"></div>
+            <h1>Célula Gaditas</h1>
+            <h2>Um manancial de amor a Deus</h2>
+            <img src="imagens/cristan1.jpg" alt="imagem religiosa">
+        </div>
+       <div class="t">
+        <div class="textogadita">
+            <p class="frase">A célula Gaditas é um grupo que se reúne para levar a palavra de Deus com o objetivo de vivermos a unidade em Cristo, 
+                semeando a palavra para que haja crescimento e fortalecimento espíritual, visando a prosperidade espíritual na vida cm Cristo.</p>
+        </div></div>
+    </header>
+
+    <main>
+        <section>
+
+        </section>
+    </main>
+
+    <footer>
+
+        <div class="texto3">
+            <div class="endereco">
+            <p>Endereço: Rua da Paz; Número 25; <br>Colônia Antônio Aleixo.</p></div>
+        </div> 
+        <a href="https://www.linkedin.com/company/freepik-corp/" target="_blank" rel="noopener noreferrer"> <img src="/imagens/idpblogo.png" alt="">
+                
+        </a>
+        
+        <a href="#" target="_blank" rel="noopener noreferrer"> <img src="/imagens/you-tube.png" alt="">
+            
+        </a>
+
+        <a href="#" target="_blank" rel="noopener noreferrer"> <img src="/imagens/instagram.png" alt="">
+            
+        </a>
+        
+
+        <!--<a href="#" target="_blank" rel="noopener noreferrer"> <img src="/imagens/idpb-removebg-preview.png" alt="">
+            
+        </a>-->
+    </footer>
+
+</body>
+</html>
