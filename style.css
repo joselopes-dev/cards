@@ -1,6 +1,7 @@
 * 
 
 body {
+    height: 100vh;
     background-color: black;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
@@ -35,19 +36,51 @@ header img {
     height: 40vh;
 }
 
+.textogadita3 {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;  /*Centraliza verticalmente */
+     text-align: center; /*Alinha o texto ao centro */
+    height: 100%;  /*Certifique-se de que a altura está definida */
+    background-color: black;  /*Mantém o fundo preto */
+    margin-left: 1%;
+    font-size: 20px;
+    padding: 2px;  /*Adiciona espaço ao redor do texto */
+}
+
+/*.frase1 {
+    color: white;
+    text-align: center; /* Alinha o texto ao centro */
+    /*width: 100%;  Garante que a largura seja de 100% do contêiner pai */
+     /*height: auto; Ajusta a altura dinamicamente 
+} */
+
+.frase1 {
+    color: white;
+    width: 40%;
+    text-align: justify;
+    height: 30%;
+}
+
 .textogadita {
     width: 98%;
-    text-align: justify;
     line-height: 30px;
     background-color: black;
-    text-align: center;
-    padding: 1%;
+    padding: 2%; 
+    text-align: center; 
 }
 
 .frase {
-    text-align: center;
     color: white;
+    width: 100%;
+    text-align: justify;
+    height: 30%;
 }
+
+.textogadita2 {
+    display: flex;
+}
+
 
 h1 {
     color: white; 
@@ -63,7 +96,7 @@ h2 {
 
 .leao {
     width: 300px;
-    height: 300px;
+    height: 500px;
     border-radius: 50%;
 }
 
@@ -89,7 +122,7 @@ footer a {
     margin: 20px;
 }
 
-.texto3 {
+.texto3 { 
     color: white;
 }
 
@@ -140,52 +173,65 @@ text-align: center;
         flex-direction: row;
         align-items: center; 
         gap: 30px;
-} 
+    } 
 
-.leao {
+    .leao {
         width: 150px;
-        height: 150px;
+        height: 300px;
     }
 
-h1 {
-     
-font-size: 25px;
+    h1 {
+        font-size: 25px;
     }
 
-h2 {
-         
-font-size: 20px;
+    h2 {
+        font-size: 20px;
     }
 
-footer {
-flex-direction: row;
-align-items: center;
+    footer {
+        display: flex; /* Adicionado para garantir o uso do flexbox */
+        flex-direction: row;
+        align-items: center;
+    }
 
-}
+    .endereco {
+        width: 100%;
+        text-align: center;
+    }
 
-.endereco {
-width: 100%;
-text-align: center;
+    .texto3 { 
+        font-size: 10px;
+    }
 
-}
+    footer a {
+        margin: 10px;
+    }
 
-.texto3 { 
-font-size: 10px;
+    .textogadita p {
+        text-align: justify;
+        padding: 5px;
+        width: 96%; 
+    }
 
-}
+    header img {
+        width: 100%;
+        height: auto; /* Alterado para manter a proporção da imagem */
+    }
 
-footer a {
-margin: 10px;
-}
+    .frase1 {
+        color: white;
+        width: 90%;
+        text-align: justify;
+        height: auto; /* Alterado para ajustar a altura dinamicamente */
+    }
 
-.textogadita p {
-    text-align: justify;
-    padding: 5px;
-}
+    
+    /* Adicionado para prevenir overflow */
+    body {
+        overflow-x: hidden; 
+    }
 
-header img {
-    width: 100%;
-    height: 30%;
-}
-     
+    .textogadita3 {
+        margin-left: 2%;
+    }
 }
