@@ -1,0 +1,282 @@
+ <style>
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("./flores.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+nav {
+    background-color: rgb(142, 110, 42);
+    position: fixed;
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 5px;
+    list-style-type: none;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: palegreen;
+}
+
+
+/*.textogadita3 {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    /*align-items: center;  Centraliza verticalmente */
+     /*text-align: center; Alinha o texto ao centro */
+    /*height: 100%;  Certifique-se de que a altura está definida */
+    /*background-color: black;  Mantém o fundo preto */
+    /*margin-left: 1%;
+    font-size: 20px;
+    padding: 2px;  Adiciona espaço ao redor do texto 
+}*/
+
+/*.frase1 {
+    color: white;
+    text-align: center; /* Alinha o texto ao centro */
+    /*width: 100%;  Garante que a largura seja de 100% do contêiner pai */
+     /*height: auto; Ajusta a altura dinamicamente 
+} */
+
+.frase1 {
+    color: white;
+    width: 40%;
+    text-align: justify;
+    height: 30%;
+}
+
+.textogadita {
+    width: 60%;
+    line-height: 30px;
+    padding: 2%; 
+    text-align: center;
+    margin-left: 18%;
+}
+
+.textogadita {
+    background-image: url("./flores.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.diario {
+    color: black;
+}
+
+.titulo1 {
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.frase {
+    color: white;
+    width: 100%;
+    text-align: justify;
+    height: 30%;
+}
+
+.textogadita2 {
+    display: flex;
+}
+
+h1 {
+    color: white; 
+    text-align: center;
+    font-size: 40px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.leao {
+    width: 150px;
+    height: 250px;
+}
+
+.leao1 {
+    text-align: center;
+}
+
+
+footer {
+        display: flex; /* Adicionado para garantir o uso do flexbox */
+        flex-direction: row;
+        align-items: center;
+    }
+
+footer img {
+    width: 50px;
+    height: 50px;
+}
+
+footer a {
+    margin: 20px;
+}
+
+.texto3 { 
+    color: white;
+}
+
+.endereco {
+    width: 200px;
+}
+
+
+header {
+    padding: 40px;
+    height: 100%;
+}
+
+
+
+
+
+/* Media Queries para responsividade */
+
+@media (max-width: 768px) {    
+   
+ul {
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.leao {    
+    width: 100px;
+    height: 200px;
+}
+  
+h1 {
+    font-size: 30px;
+}
+
+h2 {     
+    font-size: 25px;
+}
+
+footer {
+flex-direction: row;
+align-items: center;
+ }
+
+.endereco {
+width: 100%;
+text-align: center;
+ }}
+
+@media (max-width: 480px) {
+    ul {
+        flex-direction: row;
+        align-items: center; 
+        gap: 30px;
+    } 
+
+
+    @media (max-width: 480px) {
+    body {
+        background-image: url("./flores.jpg");
+        background-repeat: no-repeat;
+        background-size: cover; 
+    }
+
+    .textogadita {
+    width: 100%;
+    margin-left: 0%;
+}
+
+}
+
+
+
+
+
+
+    /*.leao {
+        width: 200px;
+        height: 300px;
+    }*/
+
+    h1 {
+        font-size: 25px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    footer {
+        display: flex; /* Adicionado para garantir o uso do flexbox */
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .endereco {
+        width: 100%;
+        text-align: center;
+    }
+
+    .texto3 { 
+        font-size: 10px;
+    }
+
+    footer a {
+        margin: 10px;
+    }
+
+    .textogadita p {
+        text-align: justify;
+        padding: 5px;
+        width: 96%;
+    }
+
+    header img {
+        width: 100%;
+        height: auto; /* Alterado para manter a proporção da imagem */
+    }
+
+    .frase1 {
+        color: white;
+        width: 90%;
+        text-align: justify;
+        height: auto; /* Alterado para ajustar a altura dinamicamente */
+    }
+
+    
+    /* Adicionado para prevenir overflow */
+    body {
+        overflow-x: hidden;
+    }
+
+    .textogadita3 {
+        margin-left: 2%;
+    }
+}
+
+    </style>
+
+<script src="/galeria.js"></script>
+
+</body>
+</html>
