@@ -159,7 +159,7 @@ header {
 ul {
     flex-direction: row;
     align-items: center;
-    gap: 0px;
+    gap: 20px;
 }
 
 
@@ -190,7 +190,7 @@ text-align: center;
     ul {
         flex-direction: row;
         align-items: center; 
-        gap: 0px;
+        gap: 30px;
         padding: 0px;
     } 
 
